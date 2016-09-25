@@ -1,6 +1,11 @@
-{
-    font-family: Playball;
-    margin: 35%;
+ *{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    background-color: aquamarine;
 }
 
 img{
@@ -48,4 +53,8 @@ img{
     margin: 2% 5% 18%;
     text-decoration: none;
     
+}
+
+footer{
+  font-family: cursive;  
 }
