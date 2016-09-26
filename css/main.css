@@ -1,6 +1,11 @@
-{
-    font-family: Playball;
-    margin: 35%;
+ *{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    background-color: aquamarine;
 }
 
 img{
@@ -10,7 +15,7 @@ img{
     margin: auto;
 }
 
-.navbar-default, .navbar-collapse, .navbar-default, .navbar-form {
+.navbar {
     color: aqua;
 }
 
@@ -28,14 +33,11 @@ img{
     background-position: center;
 }
 
-#h2{
+#hi{
     margin: 32%;
     color: coral;
-    display: block;
     font-size: 40px;
-    padding: 18% 0 1%;
-    
-}
+    }
 
 .butoon{
     font-size: 20px;
@@ -48,4 +50,17 @@ img{
     margin: 2% 5% 18%;
     text-decoration: none;
     
+}
+
+footer{
+  font-family: cursive;  
+}
+
+#myDIV{
+    margin: 25px;
+    width: 550px;
+    height: 100px;
+    background: orange;
+    position: relative;
+    font-size: 20px;
 }
