@@ -9,13 +9,50 @@
     <link rel="stylesheet" title="text/css" href="css/recetas.css">
     <title>Recetas</title>
 </head>
-<body>
+<body>   <nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Rincón Dulce</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Postre del Día</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Postres Frios</a></li>
+            <li><a href="#">Postres Calientes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Pasteles</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Snacks</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Se Feliz</button>
+      </form>
+    </div>
+  </div>
+</nav>
 	<section>
 		<h1>Recetas</h1>
 			<div class="box">
 				<img id="imagen" src="img/crema-volteada.jpg" width="400" height="250">
 				<h3>Crema Volteada</h3>
-				<div id="contenido" ="contenido">
+				<div>
 					<p>Ingredientes:</p>
 					<li>
 						<ul>1 lata de leche condensada</ul>
@@ -34,7 +71,11 @@
 					</li>
 				</div>
 			</div>
-	</section>
+</section>
+<footer class="text-center pt-5 pb-8">
+				<h3> Juega y Aprende </h3>
+				<p>¿Listo para empezar tu aventura culinaria? Juega y APRENDE!</p>
+ </footer>
 	<script src="js/recetas.js"></script>   
 </body>
 </html>
