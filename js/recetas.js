@@ -2,20 +2,26 @@ window.addEventListener("load", function() {
 
 	var imagen = document.getElementById("imagen");
 
-			function bigImg(imagen) {
-				var imagen = document.getElementById("imagen");
-			    imagen.style.height = "350px";
-			    imagen.style.width = "500px";
-			}
+	imagen.addEventListener("mouseenter",function(){
+		bigImg(this);
+	});
 
-			function normalImg(imagen) {
-				var imagen = document.getElementById("imagen");
-			    imagen.style.height = "250px";
-			    imagen.style.width = "400px";
-			}
+	imagen.addEventListener("mouseleave",function(){
+		normalImg(this);
+	});
 
-			imagen.onmouseenter = bigImg;
-			imagen.onmouseleave = normalImg;
+	function bigImg(imagen) {
+		var imagen = document.getElementById("imagen");
+	    imagen.style.height = "350px";
+	    imagen.style.width = "500px";
+	}
+
+	function normalImg(imagen) {
+		var imagen = document.getElementById("imagen");
+	    imagen.style.height = "250px";
+	    imagen.style.width = "400px";
+	}
+
 	
 /*		var bigImg = function(imagen) {
 			var imagen = document.getElementById("imagen");
